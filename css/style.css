@@ -101,7 +101,7 @@ ul.header-l {
     list-style-type: none;
     z-index: 1;
     margin: 0;
-    color: white;
+    color: black;
     font-size: 50px;
     line-height: 100px;
     /* or 200% */
@@ -110,7 +110,7 @@ ul.header-l {
 }
 
 a.header-li {
-    color: white !important;
+    color: black !important;
 }
 a.header-li:hover {
     color: #ff9900 !important;
