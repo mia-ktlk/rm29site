@@ -158,6 +158,10 @@ a.header-li:hover {
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
+img.img-fluid.header-logo {
+    padding-top: 45%;
+}
+
 textarea.form-control {
     height: 11.7rem;
 }
