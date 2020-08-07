@@ -1,3 +1,21 @@
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.js-slidein {
+    opacity: 0;
+    transform: translateY(100px);
+    -webkit-transition: all 8000ms ease-in-out;
+    transition: all 8000ms ease-in-out;
+}
+
+.js-slidein-visible {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+
 /*-----------------------------------------------------------------------------------*/
 /*  Loader
 /*-----------------------------------------------------------------------------------*/
@@ -19,9 +37,17 @@
 }
 
 .header {
-    background-color: #003399;
+    background-color: rgba(255, 255, 255, 0);
     height: 100vh;
-    z-index: -1;
+    z-index: 1;
+}
+
+.logo {
+    position: absolute;
+    top: 0px;
+    padding-right: 160px;
+    width: 170%;
+    z-index: 2;
 }
 
 body {
@@ -51,7 +77,7 @@ https://bennettfeely.com/clippy/ */
 }
 
 #contact {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
     height: 100vh;
 }
 
@@ -69,13 +95,14 @@ https://bennettfeely.com/clippy/ */
 ul.header-l {
     position: absolute;
     width: 50vw;
-    height: 50vh;
     top: 300px;
+    right: 3px;
+    padding-left: 20rem;
     list-style-type: none;
-    padding: 0;
+
     margin: 0;
     color: white;
-    font-size: 40px;
+    font-size: 50px;
     line-height: 80px;
     /* or 200% */
     text-transform: lowercase;
@@ -92,6 +119,7 @@ a.header-li:hover {
 
 .section-header {
     padding-top: 10rem;
+    padding-bottom: 3rem;
     font-family: Garamond Premier Pro;
     font-style: normal;
     font-weight: bold;

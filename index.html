@@ -21,6 +21,10 @@
 
   <!-- Custom CSS -->
   <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" media="screen" href="css/particlestyle.css">
+
+  <link rel="stylesheet" href="css/slidein.css">
+
 
   <!-- Adobe Fonts-->
   <link rel="stylesheet" href="https://use.typekit.net/oav7wdc.css">
@@ -31,30 +35,33 @@
 <body>
   <div class="loader"></div>
   <!-- Header  -->
-  <section class="header">
-    <div class="container">
-      <div class="row">
-        <div class="col-6">
-          <ul class="header-l synthese">
-            <a class="header-li" href="#about">
-              <li>about</li>
-            </a>
-            <a class="header-li" href="#ourteam">
-              <li>our team</li>
-            </a>
-            <a class="header-li" href="#services">
-              <li>services</li>
-            </a>
-            <a class="header-li" href="#contact">
-              <li>contact</li>
-            </a>
-          </ul>
-        </div>
-        <div class="col-6">
+  <div id="particles-js">
+    <section class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <ul class="header-l synthese">
+              <a class="header-li" href="#about">
+                <li>about</li>
+              </a>
+              <a class="header-li" href="#ourteam">
+                <li>our team</li>
+              </a>
+              <a class="header-li" href="#services">
+                <li>services</li>
+              </a>
+              <a class="header-li" href="#contact">
+                <li>contact</li>
+              </a>
+            </ul>
+          </div>
+          <div class="col-6">
+            <img src="img/circle.png" class="logo" alt="White circle Rm29 Logo">
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
 
   <!--About-->
   <section id="about">
@@ -67,7 +74,7 @@
           <div class="col-12 section-header white right">
             About
           </div>
-          <div class="col-12 section-text synthese">
+          <div class="col-12 section-text synthese js-slidein">
             <p>Rm 29 Designs was founded by Mia and Hanieka, two college roommates who shared the 29th room on the
               6th floor of their dormitory in Boston, MA. </p>
             <p>It was in that room that they began collaborating on projects
@@ -129,7 +136,7 @@
         <div class="col-12 section-header contact-left">
           Contact Us
         </div>
-        <div class="col-12">
+        <div class="col-12 js-slidein">
           <form action="https://formspree.io/xoqkroln" method="POST" id="contactForm">
             <div class="row">
               <div class="col-md-6">
@@ -168,6 +175,10 @@
       </div>
     </div>
   </section>
+  <!-- scripts -->
+  <script src="js/particles.js"></script>
+  <script src="js/app.js"></script>
+
 
 
 
@@ -195,6 +206,7 @@
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
   <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="js/slideIn.js"></script>
 </body>
 
 </html>
