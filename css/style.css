@@ -169,6 +169,10 @@ textarea.form-control {
     padding: 1, 1, 1, 1.5;
 }
 
+.btn-contact:hover {
+    background-color: rgb(255, 153, 0);
+}
+
 .contact-left {
     padding-bottom: 4rem;
 }
