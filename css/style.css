@@ -1,7 +1,24 @@
 html,
 body {
     max-width: 100%;
+}
+
+/* Show desktop or mobile based on screen */
+.content-desktop {
+    display: block;
+}
+.content-mobile {
+    display: none;
     overflow-x: hidden;
+}
+
+@media screen and (max-width: 768px) {
+    .content-desktop {
+        display: none;
+    }
+    .content-mobile {
+        display: block;
+    }
 }
 
 .js-slidein {
@@ -59,32 +76,50 @@ https://bennettfeely.com/clippy/ */
 
 #about {
     background-color: #003399;
-    height: 150vh;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 82%);
 }
 
 #ourteam {
     background-color: white;
-    height: 100vh;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
 }
 
 #services {
     background-color: #003399;
-    height: 120vh;
-    clip-path: polygon(0 19%, 100% 0, 100% 100%, 0 82%);
 }
 
 #contact {
     background-color: rgba(255, 255, 255, 0);
-    height: 100vh;
 }
 
 .synthese {
     font-family: synthese, sans-serif;
     font-style: normal;
     font-weight: 200;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    #about {
+        height: 150vh;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 82%);
+    }
+    #ourteam {
+        height: 100vh;
+        clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+    }
+    #services {
+        height: 120vh;
+        clip-path: polygon(0 19%, 100% 0, 100% 100%, 0 82%);
+    }
+    #contact {
+        height: 100vh;
+    }
+    .dropdown-content {
+        display: none;
+        z-index: 1;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
 }
 
 .garamond {
@@ -115,6 +150,34 @@ a.header-li {
 a.header-li:hover {
     color: #ff9900 !important;
     text-decoration: none;
+}
+
+.about-building {
+    padding-top: 300px;
+}
+img.img-fluid.about-building {
+    padding-right: 11rem;
+    padding-bottom: 4rem;
+    width: 200%;
+}
+
+.services {
+    padding-top: 8rem;
+}
+
+.services-icon {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.services-text {
+    padding-top: 1rem;
+}
+
+.services-more {
+    padding-left: 7rem;
+    list-style-type: none;
+    font-size: 20px;
 }
 
 .section-header {

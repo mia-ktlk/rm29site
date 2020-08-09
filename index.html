@@ -24,8 +24,7 @@
   <link rel="stylesheet" media="screen" href="css/particlestyle.css">
 
   <link rel="stylesheet" href="css/slidein.css">
-
-
+  <link rel="stylesheet" href="css/responsive.css">
   <link rel="stylesheet" href="css/flipimage.css">
 
 
@@ -43,26 +42,47 @@
 </head>
 
 <body>
+
+  <!-- Mobile Navigation -->
+  <div class="content-mobile">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Rm29</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about">about</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ourteam">our team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+
   <div class="loader"></div>
   <!-- Header  -->
   <div id="particles-js">
     <section class="header">
       <div class="container">
         <div class="row">
-          <div class="col-6">
+          <div class="col-6  content-desktop">
             <ul class="header-l synthese">
-              <a class="header-li" href="#about">
-                <li>about</li>
-              </a>
-              <a class="header-li" href="#ourteam">
-                <li>our team</li>
-              </a>
-              <a class="header-li" href="#services">
-                <li>services</li>
-              </a>
-              <a class="header-li" href="#contact">
-                <li>contact</li>
-              </a>
+              <li><a class="header-li" href="#about">about </a></li>
+              <li><a class="header-li" href="#ourteam">our team</a></li>
+              <li> <a class="header-li" href="#services">services </a></li>
+              <li><a class="header-li" href="#contact">contact </a></li>
             </ul>
           </div>
           <div class="col-6">
@@ -77,14 +97,17 @@
   <section id="about">
     <div class="about-bg"></div>
     <div class="container">
-      <div class="row about-row">
-        <div class="col-6">
+      <div class="row about-row  js-slidein">
+        <div class="col-12 col-md-6 col-lg-6">
+          <div class="about-item">
+            <img src="img/abouth.png" width="95%" alt="Card Back" class="img-fluid about-building">
+          </div>
         </div>
-        <div class="col-6">
+        <div class="col-12 col-md-6 col-lg-6">
           <div class="col-12 section-header white right">
             About
           </div>
-          <div class="col-12 section-text synthese js-slidein">
+          <div class="col-12 section-text synthese">
             <p>Rm 29 was founded by Mia and Hanieka, two college roommates who shared the 29th room on the
               6th floor of their dormitory in Boston, MA. </p>
             <p>It was in that room that they began collaborating on projects
@@ -99,25 +122,27 @@
 
 
   <!--Our Team  -->
-  <section id="ourteam" class=" js-slidein">
+  <section id="ourteam">
     <div class="container">
-      <div class="about-section" id="content-desktop">
+      <div class="about-section">
         <div class="row">
           <div class="col-12 section-header contact-left">
             Our Team
           </div>
         </div>
-        <div class="row">
+        <div class="row js-slidein">
           <div class="col-12 col-md-6 col-lg-6">
             <div class="about-item">
               <img src="img/mia.png" width="95%" alt="Card Back">
-              <a href="/mia"><img src="img/miah.jpg" width="95%" class="img-top" alt="Card Front"></a>
+              <a href="#"><img src="img/miah.jpg" width="95%" class="img-top" alt="Card Front"></a>
+              <h3>Mia</h3>
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-6">
             <div class="about-item">
               <img src="img/hanieka.png" width="95%" alt="Card Back">
-              <a href=" /hanieka"><img src="img/haniekah.jpg" width="95%" class="img-top" alt="Card Front"></a>
+              <a href="#"><img src="img/haniekah.jpg" width="95%" class="img-top" alt="Card Front"></a>
+              <h3>Hanieka</h3>
             </div>
           </div>
         </div>
@@ -140,18 +165,63 @@
           </div>
         </div>
       </div>
+      <div class="row services text-center js-slidein">
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="dropdown about-item">
+            <img src="img/services-webdev.png" class="services-icon img-fluid" alt="Card Back">
+            <h3 class="white services-text">Web Development</h3>
+            <div class="dropdown-content">
+              <ul class="text-left white services-more synthese">
+                <li>responsive websites</li>
+                <li>front and backend design</li>
+                <li>newsletter templates</li>
+                <li>online store</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="dropdown about-item">
+            <img src="img/services-branding.png" class="services-icon img-fluid" alt="Card Back">
+            <h3 class="white services-text">Marketing Materials</h3>
+            <div class="dropdown-content">
+              <ul class="text-left white services-more synthese">
+                <li>logos</li>
+                <li>illustrated graphics</li>
+                <li>brand kits</li>
+                <li>social media</li>
+                <li>email signatures</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="dropdown about-itemr">
+            <img src="img/services-printmedia.png" class="services-icon img-fluid" alt="Card Back">
+            <h3 class="white services-text">Print Media</h3>
+            <div class="dropdown-content">
+              <ul class="text-left white services-more synthese">
+                <li>flyers and advertisements</li>
+                <li>stationary</li>
+                <li>business cards</li>
+                <li>merchandise</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
   <!--Contact-->
-  <section id="contact" class=" js-slidein">
+  <section id="contact">
     <div class="container">
       <div class="row">
         <div class="col-12 section-header contact-left">
           Contact Us
         </div>
         <div class="col-12">
-          <form action="https://formspree.io/xoqkroln" method="POST" id="contactForm">
+          <form class=" js-slidein" action="https://formspree.io/xoqkroln" method="POST" id="contactForm">
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
