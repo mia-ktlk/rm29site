@@ -11,9 +11,6 @@
     .content-xs {
         display: block;
     }
-    .bg-dark {
-        background-color: red !important;
-    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -27,9 +24,6 @@
     .content-mobile {
         display: block;
     }
-    .bg-dark {
-        background-color: orange !important;
-    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -39,9 +33,6 @@
     }
     .content-mobile {
         display: block;
-    }
-    .bg-dark {
-        background-color: yellow !important;
     }
     .content-xs {
         display: none;
@@ -56,9 +47,7 @@
     .content-mobile {
         display: none;
     }
-    .bg-dark {
-        background-color: green !important;
-    }
+
     .content-xs {
         display: none;
     }
@@ -73,12 +62,14 @@
         display: none;
         overflow-x: hidden;
     }
-    .bg-dark {
-        background-color: #003399 !important;
-    }
+
     .content-xs {
         display: none;
     }
+}
+
+.bg-dark {
+    background-color: #003399 !important;
 }
 
 /*-----------------------------------------------------------------------------------*/
