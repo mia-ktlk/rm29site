@@ -21,6 +21,12 @@
 
   <!-- Custom CSS -->
   <link href="css/style.css" rel="stylesheet">
+  <link href="css/xs.css" rel="stylesheet">
+  <link href="css/small.css" rel="stylesheet">
+  <link href="css/medium.css" rel="stylesheet">
+  <link href="css/large.css" rel="stylesheet">
+
+
   <link rel="stylesheet" media="screen" href="css/particlestyle.css">
 
   <link rel="stylesheet" href="css/slidein.css">
@@ -44,16 +50,16 @@
 <body>
 
   <!-- Mobile Navigation -->
-  <div class="content-mobile">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Rm29</a>
+  <div class="content-mobile content-tablet">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand garamond" href="#">Rm 29</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
+        <ul class="navbar-nav synthese">
+          <li class="nav-item">
             <a class="nav-link" href="#about">about</a>
           </li>
           <li class="nav-item">
@@ -86,7 +92,7 @@
             </ul>
           </div>
           <div class="col-6">
-            <img src="img/logo.png" class="img-fluid header-logo">
+            <img src="img/logo.png" class="header-logo">
           </div>
         </div>
       </div>
@@ -98,12 +104,12 @@
     <div class="about-bg"></div>
     <div class="container">
       <div class="row about-row  js-slidein">
-        <div class="col-12 col-md-6 col-lg-6">
+        <div class="col-12col-md-12  col-lg-6 content-desktop content-tablet">
           <div class="about-item">
             <img src="img/abouth.png" width="95%" alt="Card Back" class="img-fluid about-building">
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-6">
+        <div class="col-12 col-md-12 col-lg-6">
           <div class="col-12 section-header white right">
             About
           </div>
@@ -112,9 +118,12 @@
               6th floor of their dormitory in Boston, MA. </p>
             <p>It was in that room that they began collaborating on projects
               using their different skill sets of computer science and graphic design.</p>
-            <p>Since its founding in 2018, Rm 29 Designs has worked with clients across the U.S. to bring ideas to life
+            <p>Since its founding in 2018, Rm 29 has worked with clients across the U.S. to bring ideas to life
               and brands to the next level.</p>
           </div>
+        </div>
+        <div class="col-12 content-mobile">
+          <img src="img/building.gif" class="building-gif">
         </div>
       </div>
     </div>
@@ -126,23 +135,45 @@
     <div class="container">
       <div class="about-section">
         <div class="row">
-          <div class="col-12 section-header contact-left">
+          <div class="col-12 section-header ourteam-left">
             Our Team
           </div>
         </div>
         <div class="row js-slidein">
-          <div class="col-12 col-md-6 col-lg-6">
+          <div class="col-6 col-md-6 col-lg-6">
             <div class="about-item">
-              <img src="img/mia.png" width="95%" alt="Card Back">
-              <a href="#"><img src="img/miah.jpg" width="95%" class="img-top" alt="Card Front"></a>
-              <h3>Mia</h3>
+              <img src="img/mia.jpg" width="95%" alt="Card Back" class="mia">
+              <a href="#"><img src="img/miah.jpg" width="95%" class="miah img-top" alt="Card Front"></a>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-6">
+          <div class="col-6 content-mobile col-md-6 col-lg-6">
+            <div class="team-pics">
+              <div class="about-item">
+                <p class="synthese team-text">Mia is a software and web developer. With experience in backend
+                  programming,
+                  social
+                  media management,
+                  and UI/UX design, she has the skills to solve any problem presented to her. Check out her personal
+                  portfolio at <a href=" http://miakotalik.com/">miakotalik.com</a></p>
+              </div>
+            </div>
+            <div class="col-6 content-mobile col-md-6 col-lg-6">
+              <div class="about-item">
+                <p class="synthese team-text">Hanieka is a graphic designer,
+                  illustrator, copywriter, and studio
+                  artist. With experience in corporate
+                  design, web design, publishing, and
+                  advertising, she is ready to
+                  cover all your graphics needs.
+                  Check out her personal portfolio at
+                  <a href="http://www.hanieka.com/">hanieka.com</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-6 col-lg-6">
             <div class="about-item">
-              <img src="img/hanieka.png" width="95%" alt="Card Back">
-              <a href="#"><img src="img/haniekah.jpg" width="95%" class="img-top" alt="Card Front"></a>
-              <h3>Hanieka</h3>
+              <img src="img/hanieka.jpg" width="95%" alt="Card Back" class="hanieka">
+              <a href="#"><img src="img/haniekah.jpg" width="95%" class="haniekah  img-top" alt="Card Front"></a>
             </div>
           </div>
         </div>
@@ -157,7 +188,7 @@
       <div class="row">
         <div class="col-6">
         </div>
-        <div class="col-6">
+        <div class="col-12 col-md-12">
           <div class="col-12 section-header white right">
             Services
           </div>
@@ -271,8 +302,8 @@
   <footer class="footer">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-lg-6 text-lg-left">Copyright © Rm29 2020</div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 text-lg-left white">Copyright © Rm 29 2020</div>
+        <div class="col-lg-6 icons">
           <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a><a
             class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a><a
             class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
