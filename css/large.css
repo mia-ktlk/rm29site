@@ -74,6 +74,11 @@ https://bennettfeely.com/clippy/ */
         color: orange !important;
     }
 
+    .col-12.section-header.white.right.services {
+        padding-top: 300px;
+        padding-bottom: 100px !important;
+    }
+
     .row.services.text-center {
         padding-top: 6rem !important;
     }
