@@ -193,6 +193,8 @@ https://bennettfeely.com/clippy/ */
 
     .col-12.section-header.ourteam-left {
         padding-bottom: 200px;
+        text-align: left;
+        font-size: 70px;
     }
 
     .col-12.section-header.contact-left {
@@ -246,6 +248,7 @@ https://bennettfeely.com/clippy/ */
 
     img.img-fluid.about-building {
         padding-top: 350px;
+        max-height: 80%;
     }
 
     .col-lg-6.text-lg-left {
@@ -260,5 +263,20 @@ https://bennettfeely.com/clippy/ */
 
     footer.footer {
         padding-top: 1rem;
+    }
+}
+
+@media (min-aspect-ratio: 16/9) {
+    #about {
+        height: 190vh;
+    }
+    #ourteam {
+        height: 130vh;
+    }
+    #services {
+        height: 200vh;
+    }
+    #contact {
+        height: 100vh !important;
     }
 }

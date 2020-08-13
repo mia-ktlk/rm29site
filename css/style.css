@@ -151,6 +151,7 @@ a.header-li {
 a.header-li:hover {
     color: #ff9900 !important;
     text-decoration: none;
+    font-style: italic;
 }
 
 .services-more {
