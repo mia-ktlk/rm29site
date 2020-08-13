@@ -39,6 +39,13 @@
         width: 250px;
     } */
 
+    .col-12.section-header.ourteam-left {
+        font-size: 40px;
+        text-align: center;
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+    }
+
     /* Services */
     .dropdown.about-item {
         padding-bottom: 1.5rem;
