@@ -51,7 +51,7 @@ https://bennettfeely.com/clippy/ */
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 82%);
     }
     #ourteam {
-        height: 100vh;
+        height: 110vh;
         clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
     }
     #services {
@@ -183,6 +183,24 @@ https://bennettfeely.com/clippy/ */
         transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     }
 
+    .team-txt-desktop {
+        padding-top: 0px;
+    }
+
+    p.synthese.team-txt-desktop.hanieka-text {
+        font-size: 20px;
+        color: black;
+        padding-left: 10rem;
+        padding-bottom: 3rem;
+    }
+
+    p.synthese.team-txt-desktop.mia-text {
+        font-size: 20px;
+        color: black;
+        padding-left: 10rem;
+        padding-bottom: 3rem;
+    }
+
     img.img-fluid.header-logo {
         padding-top: 45%;
     }
@@ -211,25 +229,25 @@ https://bennettfeely.com/clippy/ */
     img.hanieka {
         padding-left: 10rem;
         width: 700px;
-        padding-bottom: 6rem;
+        padding-bottom: 1rem;
     }
 
     img.haniekah {
         padding-left: 10rem;
         width: 730px;
-        padding-bottom: 6rem;
+        padding-bottom: 1rem;
     }
 
     img.mia {
         padding-right: 10rem;
         width: 700px;
-        padding-bottom: 6rem;
+        padding-bottom: 4rem;
     }
 
     img.miah {
         padding-right: 10rem;
         width: 730px;
-        padding-bottom: 6rem;
+        padding-bottom: 4rem;
     }
     .btn-contact {
         background-color: #003399;
@@ -271,7 +289,7 @@ https://bennettfeely.com/clippy/ */
         height: 190vh;
     }
     #ourteam {
-        height: 140vh;
+        height: 150vh;
     }
     #services {
         height: 200vh;
