@@ -51,7 +51,7 @@ https://bennettfeely.com/clippy/ */
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 82%);
     }
     #ourteam {
-        height: 110vh;
+        height: 130vh;
         clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
     }
     #services {
@@ -59,7 +59,7 @@ https://bennettfeely.com/clippy/ */
         clip-path: polygon(0 19%, 100% 0, 100% 100%, 0 82%);
     }
     #contact {
-        height: 70vh !important;
+        height: 80vh !important;
     }
     .dropdown-content {
         display: none;
@@ -289,7 +289,7 @@ https://bennettfeely.com/clippy/ */
         height: 190vh;
     }
     #ourteam {
-        height: 170vh;
+        height: 190vh;
     }
     #services {
         height: 200vh;
