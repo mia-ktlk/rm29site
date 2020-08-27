@@ -207,6 +207,22 @@ textarea.form-control {
 footer.footer {
     padding-top: 1rem;
 }
+.home-icon {
+    color: black !important;
+    margin-left: 20px;
+}
+
+.home-icon:hover {
+    color: #ff9900 !important;
+}
+
+.home-icons.row {
+    margin-left: 8px;
+}
+
+p.synthese.home-icons-text {
+    font-size: 20px;
+}
 
 #content-desktop {
     display: block;
