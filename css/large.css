@@ -24,9 +24,9 @@
         z-index: 1;
     }
     .col-12.section-header.white.right {
-        text-align: right;
+        text-align: left;
         font-size: 70px;
-        padding-bottom: 120px;
+        padding-bottom: 60px;
         padding-top: 160px;
         padding-right: 200px;
     }
@@ -121,9 +121,9 @@ https://bennettfeely.com/clippy/ */
         padding-top: 300px;
     }
     img.img-fluid.about-building {
-        padding-right: 11rem;
+        padding-right: 4rem;
         padding-bottom: 4rem;
-        width: 200%;
+        width: 70%;
     }
 
     .row.services.text-center {
@@ -153,7 +153,8 @@ https://bennettfeely.com/clippy/ */
     }
     .section-text {
         color: white;
-        font-size: 30px;
+        font-size: 25px;
+		padding-right: 5rem;
     }
 
     .page-section {
@@ -190,14 +191,14 @@ https://bennettfeely.com/clippy/ */
     p.synthese.team-txt-desktop.hanieka-text {
         font-size: 20px;
         color: black;
-        padding-left: 10rem;
+        padding-left: 5rem;
         padding-bottom: 3rem;
     }
 
     p.synthese.team-txt-desktop.mia-text {
         font-size: 20px;
         color: black;
-        padding-left: 10rem;
+        padding-left: 5rem;
         padding-bottom: 3rem;
     }
 
@@ -210,7 +211,8 @@ https://bennettfeely.com/clippy/ */
     }
 
     .col-12.section-header.ourteam-left {
-        padding-bottom: 200px;
+        padding-bottom: 50px;
+		padding-left:150px;
         text-align: left;
         font-size: 70px;
     }
@@ -223,30 +225,30 @@ https://bennettfeely.com/clippy/ */
     }
 
     .team-pics {
-        padding-top: 20rem;
+        padding-top: 10rem;
     }
 
     img.hanieka {
-        padding-left: 10rem;
-        width: 700px;
+        padding-left: 5rem;
+        width: 600px;
         padding-bottom: 1rem;
     }
 
     img.haniekah {
-        padding-left: 10rem;
-        width: 730px;
+        padding-left: 5rem;
+        width: 630px;
         padding-bottom: 1rem;
     }
 
     img.mia {
-        padding-right: 10rem;
-        width: 700px;
+        padding-right: 5rem;
+        width: 600px;
         padding-bottom: 4rem;
     }
 
     img.miah {
-        padding-right: 10rem;
-        width: 730px;
+        padding-right: 5rem;
+        width: 630px;
         padding-bottom: 4rem;
     }
     .btn-contact {
@@ -265,7 +267,7 @@ https://bennettfeely.com/clippy/ */
     }
 
     img.img-fluid.about-building {
-        padding-top: 350px;
+        padding-top: 200px;
         max-height: 80%;
     }
 
