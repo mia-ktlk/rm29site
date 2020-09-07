@@ -136,6 +136,7 @@ https://bennettfeely.com/clippy/ */
     font-weight: 800;
 }
 
+
 ul.header-l {
     position: absolute;
     list-style-type: none;
@@ -157,6 +158,7 @@ a.header-li:hover {
 
 .services-more {
     list-style-type: none;
+    padding-left: 0;
 }
 
 .section-header {
@@ -168,6 +170,8 @@ a.header-li:hover {
     color: white;
     font-size: 30px;
 }
+
+
 
 
  .form-control {

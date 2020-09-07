@@ -33,7 +33,7 @@
     }
 
     img.building-gif {
-        width: 300px;
+        width: 200px;
     }
 
     /* Team */
@@ -46,7 +46,7 @@
     }
     img.hanieka {
         padding-left: 3rem;
-        width: 350px;
+        width: 200px;
         padding-bottom: 6rem;
     }
 
@@ -55,11 +55,10 @@
         color: orange !important;
     }
     ul.text-left.white.services-more.synthese {
-        padding-left: 15rem;
     }
 
     img.services-icon.img-fluid {
-        width: 300px;
+        width: 200px;
     }
 
     section#contact {

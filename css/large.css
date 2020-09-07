@@ -89,7 +89,6 @@ https://bennettfeely.com/clippy/ */
     }
 
     ul.text-left.white.services-more.synthese {
-        padding-left: 5rem;
     }
 
     img.services-icon.img-fluid {
@@ -140,7 +139,6 @@ https://bennettfeely.com/clippy/ */
     }
 
     .services-more {
-        padding-left: 7rem;
         list-style-type: none;
         font-size: 20px;
     }
@@ -230,25 +228,25 @@ https://bennettfeely.com/clippy/ */
 
     img.hanieka {
         padding-left: 5rem;
-        width: 600px;
+        width: 550px;
         padding-bottom: 1rem;
     }
 
     img.haniekah {
         padding-left: 5rem;
-        width: 630px;
+        width: 580px;
         padding-bottom: 1rem;
     }
 
     img.mia {
         padding-right: 5rem;
-        width: 600px;
+        width: 550px;
         padding-bottom: 4rem;
     }
 
     img.miah {
         padding-right: 5rem;
-        width: 630px;
+        width: 580px;
         padding-bottom: 4rem;
     }
     .btn-contact {

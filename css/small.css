@@ -4,6 +4,7 @@
     .header {
         height: 90vh;
     }
+
     img.header-logo {
         width: 450px;
         padding-top: 6rem;
@@ -25,15 +26,15 @@
     /* About */
     .section-text {
         color: white;
-        font-size: 20px;
+        font-size: 15px;
     }
     .dropdown.about-item {
         padding-bottom: 1.5rem;
         padding-top: 1.5rem;
     }
 
-    img.building-gif {
-        width: 300px;
+    img.building-png {
+        width: 650px;
     }
 
     /* Team */
@@ -43,16 +44,16 @@
     }
     p.synthese.team-text {
         padding-top: 3rem;
-        font-size: 20px;
+        font-size: 15px;
     }
     img.hanieka {
         padding-left: 3rem;
-        width: 350px;
+        width: 300px;
         padding-bottom: 6rem;
     }
 
     .col-12.section-header.ourteam-left {
-        font-size: 40px;
+        font-size: 35px;
         text-align: center;
         padding-top: 3rem;
         padding-bottom: 2rem;
@@ -68,7 +69,6 @@
         color: orange !important;
     }
     ul.text-left.white.services-more.synthese {
-        padding-left: 10rem;
     }
 
     img.services-icon.img-fluid {
