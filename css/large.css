@@ -54,7 +54,7 @@ https://bennettfeely.com/clippy/ */
         height: 130vh;
         clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
     }
-    #services {
+    #portfolio {
         height: 150vh;
         clip-path: polygon(0 19%, 100% 0, 100% 100%, 0 82%);
     }
@@ -80,7 +80,7 @@ https://bennettfeely.com/clippy/ */
     }
 
     .row.services.text-center {
-        padding-top: 6rem !important;
+        padding-top: 5rem !important;
     }
 
     /* Services */
@@ -152,7 +152,7 @@ https://bennettfeely.com/clippy/ */
     .section-text {
         color: white;
         font-size: 25px;
-		padding-right: 5rem;
+        padding-right: 5rem;
     }
 
     .page-section {
@@ -210,7 +210,7 @@ https://bennettfeely.com/clippy/ */
 
     .col-12.section-header.ourteam-left {
         padding-bottom: 50px;
-		padding-left:150px;
+        padding-left: 150px;
         text-align: left;
         font-size: 70px;
     }
@@ -291,7 +291,7 @@ https://bennettfeely.com/clippy/ */
     #ourteam {
         height: 190vh;
     }
-    #services {
+    #portfolio {
         height: 200vh;
     }
     #contact {

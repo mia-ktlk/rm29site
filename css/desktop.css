@@ -41,7 +41,7 @@ https://bennettfeely.com/clippy/ */
         height: 100vh;
         clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
     }
-    #services {
+    #portfolio {
         height: 120vh;
         clip-path: polygon(0 19%, 100% 0, 100% 100%, 0 82%);
     }
