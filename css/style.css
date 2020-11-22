@@ -170,6 +170,14 @@ a.header-li:hover {
     font-size: 30px;
 }
 
+.header-center {
+	font-family: Garamond Premier Pro, EB Garamond, Georgia, serif;
+    font-style: normal;
+    font-weight: bold;
+	font-size: 60px;
+	text-align: center;
+}
+
 .form-control {
     display: block;
     width: 100%;
